@@ -1,0 +1,33 @@
+<mat-tab-group mat-stretch-tabs="false" mat-align-tabs="end">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon fontIcon="view_module"></mat-icon>
+      </ng-template>
+
+      <div *ngIf="!imagesLoaded" class="loading-spinner">
+        <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+      </div>
+
+      <div *ngIf="imagesLoaded" class="card-container">
+        <a *ngFor="let image of images" [routerLink]="['/image', image.id]">
+            <app-card [image]="image"></app-card>
+        </a>
+      </div>
+    
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon fontIcon="list"></mat-icon>
+      </ng-template>
+      
+      <div class="container">
+        <h1>Images</h1>
+        <ul class="list-group">
+            <a *ngFor="let image of images" [routerLink]="['/image', image.id]" class="list-group-item list-group-item-action">
+              <app-grid [image]="image"></app-grid>
+            </a>
+        </ul>
+      </div>
+      
+    </mat-tab>
+</mat-tab-group>
