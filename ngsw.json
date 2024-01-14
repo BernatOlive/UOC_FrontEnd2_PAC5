@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1705267509325,
+  "index": "/UOC_FrontEnd2_PAC5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/UOC_FrontEnd2_PAC5/favicon.ico",
+        "/UOC_FrontEnd2_PAC5/index.html",
+        "/UOC_FrontEnd2_PAC5/main.936eabe2d365fd57.js",
+        "/UOC_FrontEnd2_PAC5/manifest.webmanifest",
+        "/UOC_FrontEnd2_PAC5/polyfills.c74f4e234c37ffae.js",
+        "/UOC_FrontEnd2_PAC5/runtime.709016cbea32788e.js",
+        "/UOC_FrontEnd2_PAC5/styles.6507e0fc35322572.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/UOC_FrontEnd2_PAC5/assets/css/animate.css",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-128x128.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-144x144.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-152x152.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-192x192.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-384x384.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-512x512.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-72x72.png",
+        "/UOC_FrontEnd2_PAC5/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "images-api",
+      "patterns": [
+        "https:\\/\\/picsum\\.photos\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/UOC_FrontEnd2_PAC5/assets/css/animate.css": "1a1f22a40beae7a4bf83ff81f7c6b8be7cfd7e59",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/UOC_FrontEnd2_PAC5/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/UOC_FrontEnd2_PAC5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/UOC_FrontEnd2_PAC5/index.html": "72a06525000ed91fe727e49740db4a1402641fbd",
+    "/UOC_FrontEnd2_PAC5/main.936eabe2d365fd57.js": "0ebfde597f195f25d17fdd62d78c1002a944bd7c",
+    "/UOC_FrontEnd2_PAC5/manifest.webmanifest": "c36d4bdae200637031ca8a614b0138006854e6e4",
+    "/UOC_FrontEnd2_PAC5/polyfills.c74f4e234c37ffae.js": "410dab3e0156cf1f3d1aba8cc14f35ddc1a8375a",
+    "/UOC_FrontEnd2_PAC5/runtime.709016cbea32788e.js": "756f2c0278f97ceb3f64db54952ca729ea217e76",
+    "/UOC_FrontEnd2_PAC5/styles.6507e0fc35322572.css": "1c428c356d3ad7dd744d877cb29ee6f7ce441188"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
